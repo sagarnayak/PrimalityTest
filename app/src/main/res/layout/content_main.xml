@@ -30,21 +30,21 @@
         app:layout_constraintTop_toBottomOf="@+id/edittext_number"/>
 
     <TextView
-        android:id="@+id/time_taken"
+        android:id="@+id/textview_time_taken"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_check"/>
 
     <TextView
-        android:id="@+id/time_taken_value"
+        android:id="@+id/textview_time_taken_value"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/time_taken"/>
+        app:layout_constraintTop_toBottomOf="@+id/textview_time_taken"/>
 
     <TextView
-        android:id="@+id/result"
+        android:id="@+id/textview_result"
         style="@style/Base.TextAppearance.AppCompat.Display1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
